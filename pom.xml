@@ -444,6 +444,12 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+        <repository>
+            <id>releases</id>
+            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+        </repository>
+    	</distributionManagement>
 
 	<url>demopetclinic</url>
 </project>
